@@ -4,8 +4,8 @@ title: about
 permalink: /about/
 ---
 
-{% assign resume_pdf    = site.static_files | where: "path", "/assets/img/resume/RykerKollmyer_Resume (4).pdf" | first %}
-{% assign resume_img0   = site.static_files | where: "path", "/assets/img/resume/RykerKollmyer_Resume (4) (1)_page-0001.jpg" | first %}
+{% assign resume_pdf    = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
+{% assign resume_img0   = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
 {% assign resume_img1   = site.static_files | where: "path", "/assets/img/resume/resume.png" | first %}
 {% assign resume_img2   = site.static_files | where: "path", "/assets/img/resume/resume.jpg" | first %}
 {% assign resume_img3   = site.static_files | where: "path", "/assets/img/resume.png" | first %}
@@ -15,7 +15,7 @@ permalink: /about/
 {% assign aboutme_videos  = aboutme_files | where: "extname", ".mp4" %}
 {% assign aboutme_images  = aboutme_files | where_exp: "f", "f.extname != '.mp4'" | sort: "path" %}
 {% assign about_video     = aboutme_videos[0] | default: about_loop %}
-{% assign about_poster_raw = aboutme_images[0].path | default: "/assets/img/ryker.jpg" %}
+{% assign about_poster_raw = aboutme_images[0].path | default: "Screenshot 2025-11-11 at 3.26.22 PM.jpg" %}
 {% assign about_poster    = about_poster_raw | relative_url %}
 
 {% if resume_img0 %}
