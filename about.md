@@ -6,10 +6,10 @@ permalink: /about/
 
 {% assign resume_pdf    = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
 {% assign resume_img0   = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
-{% assign resume_img1   = site.static_files | where: "path", "/assets/img/resume/resume.png" | first %}
-{% assign resume_img2   = site.static_files | where: "path", "/assets/img/resume/resume.jpg" | first %}
-{% assign resume_img3   = site.static_files | where: "path", "/assets/img/resume.png" | first %}
-{% assign resume_img4   = site.static_files | where: "path", "/assets/img/resume.jpg" | first %}
+{% assign resume_img1   = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
+{% assign resume_img2   = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
+{% assign resume_img3   = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
+{% assign resume_img4   = site.static_files | where: "path", "/script/Kevin Liu Resume 2025 1162025.pdf" | first %}
 {% assign about_loop      = site.static_files | where: "path", "/assets/video/about-loop.mp4" | first %}
 {% assign aboutme_files   = site.static_files | where_exp: "f", "f.path contains '/assets/img/aboutme/'" %}
 {% assign aboutme_videos  = aboutme_files | where: "extname", ".mp4" %}
