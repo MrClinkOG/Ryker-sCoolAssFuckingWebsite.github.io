@@ -15,7 +15,7 @@ permalink: /about/
 {% assign aboutme_videos  = aboutme_files | where: "extname", ".mp4" %}
 {% assign aboutme_images  = aboutme_files | where_exp: "f", "f.extname != '.mp4'" | sort: "path" %}
 {% assign about_video     = aboutme_videos[0] | default: about_loop %}
-{% assign about_poster_raw = aboutme_images[0].path | default: "Screenshot 2025-11-11 at 3.26.22 PM.jpg" %}
+{% assign about_poster_raw = aboutme_images[0].path | default: "/script/Screenshot 2025-11-11 at 3.26.22 PM.jpg" %}
 {% assign about_poster    = about_poster_raw | relative_url %}
 
 {% if resume_img0 %}
@@ -29,7 +29,7 @@ permalink: /about/
 {% elsif resume_img4 %}
   {% assign resume_src = resume_img4.path | relative_url %}
 {% else %}
-  {% assign resume_src = "Screenshot 2025-11-11 at 3.26.22 PM.jpg" | relative_url %}
+  {% assign resume_src = "/script/Screenshot 2025-11-11 at 3.26.22 PM.jpg" | relative_url %}
 {% endif %}
 
 <link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}">
@@ -84,7 +84,7 @@ permalink: /about/
             {% endunless %}
           {% endfor %}
           {% unless has_cards %}
-            <div class="about__card"><img src="{{ 'Screenshot 2025-11-11 at 3.26.22 PM.jpg' | relative_url }}" alt="Kevin"></div>
+            <div class="about__card"><img src="{{ '/script/Screenshot 2025-11-11 at 3.26.22 PM.jpg' | relative_url }}" alt="Kevin"></div>
           {% endunless %}
         </div>
         <div class="about__media-smear"></div>
