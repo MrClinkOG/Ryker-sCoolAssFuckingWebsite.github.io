@@ -27,24 +27,25 @@ layout: default
   <aside class="profile-panel" id="about" aria-labelledby="profileHeading">
     <div class="profile-panel__card">
       <div class="profile-panel__image">
-        <img src="{{ '/assets/img/ryker.jpg' | relative_url }}" alt="Ryker Kollmyer portrait">
+        <img src="{{ 'Screenshot 2025-11-11 at 3.26.22 PM.jpg' | relative_url }}" alt="Kevin Liu portrait">
       </div>
       <div class="profile-panel__meta">
-        <p class="profile-panel__eyebrow">Ryker Kollmyer</p>
-        <h2 id="profileHeading">Youth Researcher</h2>
+        <p class="profile-panel__eyebrow">Kevin Liu</p>
+        <h2 id="profileHeading">Researcher Student</h2>
         <p class="profile-panel__summary">
-          I develop and build robots, research, and am founder of a education access initiative in Fiji.
-          Outside of engineering I hike, boat, and cycle.
+          Hello! I'm Kevin Liu, I enjoy coding, 
+          pets/animals, riding around town on my scooter, 
+          swimming, violin, music, and stocks(I know it's alot)!
         </p>
       </div>
       <dl class="profile-panel__stats">
         <div>
           <dt>Focus</dt>
-          <dd>Mechatronics, Distributed Systems</dd>
+          <dd>Genomics, Engineering</dd>
         </div>
         <div>
           <dt>Current</dt>
-          <dd>Olympia High School CO '27</dd>
+          <dd>Albany High School CA '26</dd>
         </div>
       </dl>
       <div class="profile-panel__actions">
@@ -57,10 +58,9 @@ layout: default
   <div class="portfolio-column">
     <header class="portfolio-header">
       <p class="portfolio-kicker">"What if?" started everything in my</p>
-      <h2>Engineering Portfolio</h2>
+      <h2>General Portfolio</h2>
       <p>
-        Software systems, hackathons, rockets, and apps. Click any card to see an expanded view of the project including interactive CAD files,
-        data, figures, high-def videos, and documentation.
+        Software systems, hackathons, antkeeping, and music. Click any card to see an expanded view of the projects,
       </p>
     </header>
     <div class="project-stack" id="portfolioGrid">
@@ -71,8 +71,8 @@ layout: default
 
 <footer class="site-footer" id="contact">
   <div>
-    <h3>Let’s build something</h3>
-    <p>rykerkollmyer@gmail.com · @Ryker32</p>
+    <h3>Let's connect!</h3>
+    <p>Kevinliu20080620@gmail.com · @_anearlybirb</p>
   </div>
-  <p>© 2025 Ryker Kollmyer. All rights reserved.</p>
+  <p>© 2025 Kevin Liu. All rights reserved.</p>
 </footer>
