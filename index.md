@@ -18,7 +18,7 @@ layout: default
     <p class="hero__eyebrow">Autonomy · Multi-agent systems · CAD</p>
     <h1>Kevin Liu</h1>
     <p class="hero__lede">
-      Mechatronics and distributed-systems student researcher focused on robust hardware and software systems.
+      Engineering and genetics student researcher focused on robust hardware and software systems.
     </p>
   </div>
 </section>
