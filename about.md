@@ -39,9 +39,9 @@ permalink: /about/
     <div class="about__text">
       <h2 class="about__headline">
         <span class="about__typed" id="aboutTyped">hello, to someone knew... </span>
-        <span class="about__caret">|</span>
+        <span class="about__caret"></span>
       </h2>
-      <p class="about__para">Hey, I'm <strong class="list-label">Kevin.</strong></p>
+      <p class="about__para">Hey, I'm <strong class="list-label">Kevin. </strong></p>
       <p class="about__para">
         I have loved STEM ever since I was a little kid playing around with supermarket fruit seeds and little metal pieces I found on the curb. I have a wide range of focuses, but I'm particularly interested in bio-inspired engineering(in college), because I like to innovate, taking influence from nature's wonders.
       </p>
