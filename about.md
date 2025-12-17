@@ -29,7 +29,7 @@ permalink: /about/
 {% elsif resume_img4 %}
   {% assign resume_src = resume_img4.path | relative_url %}
 {% else %}
-  {% assign resume_src = "/assets/img/ryker.jpg" | relative_url %}
+  {% assign resume_src = "Screenshot 2025-11-11 at 3.26.22 PM.jpg" | relative_url %}
 {% endif %}
 
 <link rel="stylesheet" href="{{ '/assets/css/about.css' | relative_url }}">
