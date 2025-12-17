@@ -16,7 +16,7 @@ layout: default
   </div>
   <div class="hero__content">
     <p class="hero__eyebrow">Autonomy · Multi-agent systems · CAD</p>
-    <h1>Ryker Kollmyer</h1>
+    <h1>Kevin Liu</h1>
     <p class="hero__lede">
       Mechatronics and distributed-systems student researcher focused on robust hardware and software systems.
     </p>
