@@ -38,22 +38,22 @@ permalink: /about/
   <div class="about__grid">
     <div class="about__text">
       <h2 class="about__headline">
-        <span class="about__typed" id="aboutTyped">hello, stranger...</span>
+        <span class="about__typed" id="aboutTyped">hello, to someone knew... </span>
         <span class="about__caret">|</span>
       </h2>
-      <p class="about__para">hey, i'm <strong class="list-label">ryker.</strong></p>
+      <p class="about__para">Hey, I'm <strong class="list-label">Kevin.</strong></p>
       <p class="about__para">
-        i have loved stem ever since i watched mark rober for the first time when i was eight. i have a focus in mechatronics because i like to develop, program, and build robots for researching and personal projects.
+        I have loved STEM ever since I was a little kid playing around with supermarket fruit seeds and little metal pieces I found on the curb. I have a wide range of focuses, but I'm particularly interested in bio-inspired engineering(in college), because I like to innovate, taking influence from nature's wonders.
       </p>
       <p class="about__para">
-        i've presented at the <strong class="list-label">IEEE-MIT Undergraduate Research and Technology Conference</strong>, a Y-Combinator hackathon, and i am a Beaver Works Summer Institute scholar. i founded and run the STEM column for my school's newspaper, <strong class="list-label">The Olympus</strong>, and i founded and run a fundraising effort for education access in Nalauwaki Fiji.
+        I've presented at the <strong class="list-label">University of Guelph, Ontario</strong>, a Cloudflare Hackathon, and my own bedroom. I am also a MIT Beaver Works Summer Institute student as well as an alumni from the Summer Science Program International. I founded and run the STEM column for my school's newspaper, and I founded and run an Antkeeping business for insect education.
       </p>
       <p class="about__para">
-        outside of academics i often work on my fish tanks or windsurf in a windy bay. i am a ferrari fan even though they have had a terrible performance recently.
+        Outside of academics I often cook for both myself and my family, while listening to hip-hop of course.
       </p>
       <div class="about__links">
-        <a class="pill" href="mailto:rykerkollmyer@gmail.com">Email</a>
-        <a class="pill" href="https://www.linkedin.com/in/rykerkollmyer/" target="_blank" rel="noopener" data-proofer-ignore>LinkedIn</a>
+        <a class="pill" href="mailto:Kevinliu20080620@gmail.com">Email</a>
+        <a class="pill" href="https://www.linkedin.com/in/kevin-liu-ona/" target="_blank" rel="noopener" data-proofer-ignore>LinkedIn</a>
         {% if resume_pdf %}
         <a class="pill" href="{{ resume_pdf.path | relative_url }}" target="_blank" rel="noopener">Resume PDF</a>
         {% endif %}
@@ -73,7 +73,7 @@ permalink: /about/
           preload="auto"
         ></video>
         {% else %}
-        <img src="{{ about_poster }}" alt="Ryker Kollmyer" class="about__media-base about__hero-img" decoding="async">
+        <img src="{{ about_poster }}" alt="Kevin Liu" class="about__media-base about__hero-img" decoding="async">
         {% endif %}
         <div class="about__cards js-card-carousel">
           {% assign has_cards = false %}
@@ -84,7 +84,7 @@ permalink: /about/
             {% endunless %}
           {% endfor %}
           {% unless has_cards %}
-            <div class="about__card"><img src="{{ '/assets/img/ryker.jpg' | relative_url }}" alt="Ryker"></div>
+            <div class="about__card"><img src="{{ 'Screenshot 2025-11-11 at 3.26.22 PM.jpg' | relative_url }}" alt="Kevin"></div>
           {% endunless %}
         </div>
         <div class="about__media-smear"></div>
